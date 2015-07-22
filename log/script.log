@@ -1,0 +1,208 @@
+2015-07-21 09:02:19,687 [Thread-3:8996] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2015-07-21 15:31:15,167 [Thread-7:18184] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1516, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1456, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 703, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (tittle) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2015-07-21 15:31:22,108 [Thread-8:16624] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1516, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1456, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 703, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (tittle) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2015-07-21 15:32:04,328 [Thread-27:10840] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1516, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1456, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 703, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (tittle) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2015-07-21 15:32:44,217 [Thread-41:7060] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1516, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 34, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 30, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 145, in inner
+    return func(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 1456, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "C:\Python27\lib\site-packages\django\contrib\admin\options.py", line 703, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (tittle) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2015-07-21 16:34:05,605 [Thread-4:19412] [django.request:170] [base:get_response] [WARNING]- Not Found: /admin'
+2015-07-21 17:58:24,256 [Thread-48:9936] [django.request:170] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2015-07-21 20:39:54,591 [Thread-33:22488] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\PycharmWorkspace\blog_project_demo2\blog\views.py", line 11, in index
+    return render(request, 'index.html', locals())
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: index.html
+2015-07-21 20:40:23,424 [Thread-2:22408] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\PycharmWorkspace\blog_project_demo2\blog\views.py", line 11, in index
+    return render(request, 'index.html', locals())
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: index.html
+2015-07-21 20:40:26,615 [Thread-3:21984] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\PycharmWorkspace\blog_project_demo2\blog\views.py", line 11, in index
+    return render(request, 'index.html', locals())
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: index.html
+2015-07-22 08:59:07,861 [Thread-3:3544] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2015-07-22 09:39:35,647 [Thread-8:12076] [django.request:170] [base:get_response] [WARNING]- Not Found: /unploads/ad/2015/07IMG_0056.JPG
+2015-07-22 09:39:40,851 [Thread-9:8264] [django.request:170] [base:get_response] [WARNING]- Not Found: /unploads/ad/2015/07/IMG_0056.JPG
+2015-07-22 09:46:46,036 [Thread-3:11672] [django.request:170] [base:get_response] [WARNING]- Not Found: /ad/2015/07/IMG_0076.JPG
+2015-07-22 09:46:46,040 [Thread-5:11184] [django.request:170] [base:get_response] [WARNING]- Not Found: /ad/2015/07/IMG_0265.JPG
+2015-07-22 09:46:46,040 [Thread-6:9908] [django.request:170] [base:get_response] [WARNING]- Not Found: /ad/2015/07/IMG_0056.JPG
+2015-07-22 09:46:46,042 [Thread-4:10844] [django.request:170] [base:get_response] [WARNING]- Not Found: /ad/2015/07/IMG_0267.JPG
+2015-07-22 09:46:53,651 [Thread-7:5392] [django.request:170] [base:get_response] [WARNING]- Not Found: /ad/2015/07/IMG_0076.JPG
+2015-07-22 09:47:22,917 [Thread-19:3140] [django.request:170] [base:get_response] [WARNING]- Not Found: /uploads/
+2015-07-22 10:55:17,990 [Thread-18:1268] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.html
+2015-07-22 10:55:55,546 [Thread-19:2584] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.html
+2015-07-22 10:57:44,332 [Thread-47:10572] [django.request:170] [base:get_response] [WARNING]- Not Found: /templates/index.html
+2015-07-22 10:57:58,131 [Thread-48:188] [django.request:170] [base:get_response] [WARNING]- Not Found: /templates/index.html
+2015-07-22 10:59:00,206 [Thread-13:10208] [django.request:170] [base:get_response] [WARNING]- Not Found: /templates/index.html
+2015-07-22 10:59:16,703 [Thread-26:3560] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.html/uploads/ad/2015/07/IMG_0076.JPG
+2015-07-22 10:59:16,727 [Thread-27:704] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.html/uploads/ad/2015/07/IMG_0267.JPG
+2015-07-22 10:59:16,744 [Thread-29:10940] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.html/uploads/ad/2015/07/IMG_0056.JPG
+2015-07-22 10:59:16,744 [Thread-28:10280] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.html/uploads/ad/2015/07/IMG_0265.JPG
+2015-07-22 10:59:20,026 [Thread-30:10772] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.html/index.html
+2015-07-22 11:33:05,638 [Thread-2:10044] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\PycharmWorkspace\blog_project_demo2\blog\views.py", line 25, in index
+    return render(request, 'index.html', locals())
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render(context))
+  File "C:\Python27\lib\site-packages\django\template\defaulttags.py", line 161, in render
+    values = list(values)
+TypeError: 'ManyRelatedManager' object is not iterable
